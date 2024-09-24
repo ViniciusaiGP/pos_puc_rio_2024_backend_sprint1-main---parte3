@@ -49,6 +49,8 @@ Instale as dependências do projeto:
 pip install -r requirements.txt
 ```
 
+Não esqueça de fazer um arquivo `.env` na pasta raiz.
+
 ---
 
 ## Funcionalidades
