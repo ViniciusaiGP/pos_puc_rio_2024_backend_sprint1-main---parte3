@@ -18,4 +18,4 @@ RUN python3 -m venv venv && \
 COPY . .
 EXPOSE 5001
 # Set the entry point for your application
-CMD ["./venv/bin/python", "-m", "flask", "run", "--host=0.0.0.0", "--port=5001"]
+CMD ["./venv/bin/python", "-m", "flask", "run", "--host=0.0.0.0"]
